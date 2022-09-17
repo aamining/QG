@@ -26,8 +26,8 @@ export default class Area extends Component {
 
 
             <Row>
-              <Col xs lg="3" />
-              <Col xs lg="6">
+              <Col xs="1" lg="3" />
+              <Col xs="10" lg="6">
                 <select style={{ color: 'red', font: 'bold 14px/30px Georgia' }} value={this.props.value} onChange={this.callback}>
                   <option value="General questions">General Questions</option>
                   <option value="Fees">Fees</option>
@@ -38,9 +38,8 @@ export default class Area extends Component {
                   <option value="Creating an account — SMSF and Trust account types">Creating an account — SMSF and Trust account types</option>
                   <option value="Creating an account — Residents of other countries">Creating an account — Residents of other countries</option>
                 </select>
-
               </Col>
-              <Col xs lg="3" />
+              <Col xs="1" lg="3" />
             </Row>
 
           </Container>
