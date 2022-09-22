@@ -29,14 +29,14 @@ export default class SearchOutput extends Component {
           <Container>
 
             <Row>
-              <Col xs lg="1" />
-              <Col className="search">
+              <Col xs="1" lg="1" />
+              <Col xs="10" lg="10" className="search">
                 <ul>
                   <a href={this.props.qs.url} style={{ border: 'none' }} onClick={this.callback}>{this.props.qs.questionkey}</a>
 
                 </ul>
               </Col>
-              <Col xs lg="1" />
+              <Col xs="1" lg="1" />
             </Row>
           </Container>
         )
